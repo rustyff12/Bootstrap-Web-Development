@@ -1,0 +1,13 @@
+/* For space with fixed top */
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+} 
+
+/* For email input width at larger screens */
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
