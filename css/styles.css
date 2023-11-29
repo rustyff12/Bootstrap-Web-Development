@@ -11,3 +11,14 @@ body::before {
         width: 50%;
     }
 }
+
+.our-portraits {
+    max-width: 200px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
